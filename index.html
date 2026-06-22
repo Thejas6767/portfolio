@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-image fade-in">
+            <img src="images/profile.png" alt="Thejas M R">
+        </div>
+
+        <div class="hero-content">
+            <h1 class="fade-in">Hi, I'm <span>Thejas M R</span></h1>
+            <div class="entrance-wrapper">
+<h2 class="typing-text">
+<span id="typing"></span></h2>           
+ </div>
+            <p class="fade-in delay">Turning complex business requirements into elegant, full-stack Java solutions.</p>
+            <a href="My_Resume.pdf" class="btn resume-btn" download>Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects-section">
+    <h2 class="section-title">Featured Projects</h2>
+    
+    <div class="projects-grid"> 
+        <div class="project-card"> 
+            <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+            <h3>Heart Disease Prediction</h3>
+            <p>AIML system to predict cardiovascular risks.</p>
+            <div class="tech-stack">
+                <span>Python</span> <span>Flask</span>
+            </div>
+           
+        </div> 
+
+        <div class="project-card">
+            <div class="project-icon"><i class="fas fa-code"></i></div>
+            <h3>Interactive Portfolio</h3>
+            <p>Professional brand platform with custom JS animations.</p>
+            <div class="tech-stack">
+                <span>HTML</span> <span>CSS</span> <span>JS</span>
+            </div>
+        </div> 
+    </div>
+</section>
+    <section id="skills" class="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3>Backend</h3>
+            <ul>
+                <li>Java (J2EE)</li>
+                <li>Spring Boot & Hibernate</li>
+                <li>JPA </li>
+                    <li>JDBC</li>
+                <li>Servlet</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Frontend</h3>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>BootStrap</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>Tools & DB</h3>
+            <ul>
+                <li>MySQL </li>
+                <li>Git & GitHub</li>
+                <li>Maven </li>
+                <li>IntelliJ IDEA</li>
+                <li>Visual Studio Code</li>
+            </ul>
+        </div>
+    </div>
+</section>
+   <section id="about" class="about">
+    <div class="about-container">
+        <h2 class="about-title">About Me</h2>
+        
+        <div class="about-description">
+            <p>
+                I am a dedicated <span class="gold-bold">Full Stack Java Developer</span> with a passion for building robust, scalable applications. My expertise lies in the <span class="gold-bold">Spring Ecosystem</span>, where I enjoy architecting microservices and optimizing backend performance.
+            </p>
+            <p>
+                Bridging the gap between logic and user experience, I also specialize in modern frontend technologies to create seamless, responsive interfaces. My goal is always the same: <span class="gold-bold">to write clean, maintainable code that solves real-world business problems.</span>
+            </p>
+        </div>
+
+        <div class="about-footer">
+            <div class="footer-column">
+                <h3>CORE</h3>
+                <p>Java, Spring Boot</p>
+            </div>
+            <div class="footer-column">
+                <h3>WEB</h3>
+                <p>REST, React, CSS</p>
+            </div>
+            <div class="footer-column">
+                <h3>DATA</h3>
+                <p>MySQL, Hibernate</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="grow-divider" class="gold-divider"></div>
+
+    <section id="contact" class="contact">
+    <div class="contact-flex-container">
+        
+        <div class="contact-left">
+            <h2 class="contact-sub-title">Let's Connect</h2>
+            <p class="contact-text">
+                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <div class="contact-socials">
+                <a href="https://www.linkedin.com/in/thejas-m-r-867bb3333" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Thejas6767" target="_blank">GitHub</a>
+                <a href="https://wa.me/7204238279" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="contact-right">
+            <form id="my-form" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+    <input type="hidden" name="access_key" value="8c724cb0-375b-4766-9d70-9ffa713e8a99">
+    
+    <input type="checkbox" name="botcheck" style="display: none;">
+                <div class="input-group">
+                    <label>Your Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label>Your Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label>Your Message</label>
+                    <textarea name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" id="submit-btn" class="gold-submit-btn">
+                    Send Message <span>➤</span>
+                </button>
+                <div id="status" class="status-box"></div>
+            </form>
+        </div>
+
+    </div>
+</section>
+   <footer>
+    <p>&copy; 2026 Created by Thejas M R</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
